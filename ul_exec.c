@@ -7,11 +7,6 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-struct Buffer {
-	size_t len, pos;
-	unsigned char b[];
-};
-
 _Noreturn void jump(void *entry_point, void *stack_pointer)
 {
 	asm volatile("mov $0, %%rbp\n"
