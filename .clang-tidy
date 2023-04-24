@@ -1,0 +1,6 @@
+---
+Checks: "*,-android-*,-hicpp-*,-clang-analyzer-osx.*,-readability-braces-around-statements,-readability-identifier-length,-cppcoreguidelines-*,-altera-*,-llvmlibc-restrict-system-libc-headers,-llvm-header-guard,-google-readability-braces-around-statements,-concurrency-mt-unsafe,-readability-magic-numbers,-clang-analyzer-security.insecureAPI.*,-bugprone-easily-swappable-parameters,-misc-no-recursion,-readability-function-cognitive-complexity,-bugprone-sizeof-expression"
+WarningsAsErrors: ""
+HeaderFilterRegex: ""
+AnalyzeTemporaryDtors: false
+FormatStyle: none
