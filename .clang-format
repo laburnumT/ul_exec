@@ -1,0 +1,15 @@
+AccessModifierOffset: -4
+BasedOnStyle: LLVM
+ColumnLimit: 80
+IndentWidth: 8
+TabWidth: 8
+UseTab: Always
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+AlignConsecutiveAssignments: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+IndentPPDirectives: BeforeHash
+QualifierAlignment: Custom
+QualifierOrder: ['inline', 'static', 'constexpr', 'volatile', 'const', 'restrict', 'type' ]
